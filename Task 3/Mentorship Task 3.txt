@@ -1,0 +1,128 @@
+﻿Scenario Based task 1
+
+
+Your client has been very much impressed with your company’s ability to handle multilingual Spreadsheet files! They have expanded the scope of your cooperation and have sent another project for you to translate. Check the following: 
+
+
+
+
+awesomeSpreadsheet.xlsx
+
+
+Your project manager noticed that the client has embedded xml-like content in an excel sheet, without specifying what their needs are. But given the client requested translation into 8 languages, it is very much likely what they want is just like the first time with each language taking one column. (And btw, let's assume the actual client file is much larger than the sample size, with much more lines).
+
+
+
+
+Task Description:
+Design a solution that parses, distributes and compiles the translation without messing with the code part of the file. 
+
+
+If your solution involves scripting, feel free to attach the code.
+
+
+Tips: 
+Here is a blogpost about how to use a memoq configuration “cascading filter” written by a localization engineer who no longer recalls how he set up CAT tool filters in the first place. Hope it helps :)
+
+
+https://www.linkedin.com/pulse/memoq-cascading-filter-issue-1-shelton-chen/
+
+
+
+
+Scenario Based Task 2:
+
+
+Sample 5.xml
+
+
+So in addition to the multilingual spreadsheets, the client also sent you an XML (link above) which appears to be multilingual as well. Here are the detailed requirements:
+
+
+1. For all segments, add a “French Canada” as <FRC>. (in the task you can use either pseudo translation or machine translation)
+2. For segments already with translation, the client wanted them reviewed/proofread. Translate the other fields.
+
+
+Choose whichever tools at your disposal. Also imagine this file runs up to 5000 lines, which makes it impossible to do copy-and-paste to a spreadsheet.
+
+
+
+
+Scenario Based Task 3: 
+
+
+Sample 7 (1).pdf
+
+
+Today is Friday. The client sent you a .pdf document for translation. Unfortunately, your project manager reported that neither she nor the linguists could have it open. They tried to use different tools to open it but to no avail. 
+
+
+The client insisted that this is “such a small document” and expected the translation to be done over the weekend. Because it is Friday the client would not be able to respond to your inquiries on time. 
+
+
+Your project manager is now asking for your help. Could you investigate the .pdf and find a way to translate it? Please do the following:
+
+
+1. Investigate the file, and think of a way to open it if possible.
+2. Pseudo translate into traditional Chinese.
+
+
+
+
+File Handling Task: 
+
+
+Your company is using a home-brew TMS to manage client and project data. Every time you receive a file, you analyze it in your CAT tool, generate a report from the CAT-tool, import the report to your system and create a quote using the information from both the report and your system. One day, a new client reached out. This client has its own TMS, and because of this they often have a report of their own. To keep consistency, you need to convert their report into a format that is readable to your system.
+
+
+Below you will find a sample report from your system and your client’s system. Imagine the client report has more than 500 lines (which made it impossible to do a “manual” conversion). Try to write a script to convert the client’s report. 
+
+
+Sample of your client’s report:2023-11-07_sampleProject_Metrics.xlsx
+Sample of your own report: mySampleReport.csv
+
+
+
+
+
+
+Here are the rules for the conversion:
+
+
+In the client report, “word non-translatable”, “Words ICE Match” and “Words Leveraged Match” count towards “ICE Match” in your own report.
+
+
+“95%-99%” in client report counts towards “90%-100%” in your own report.
+“85%-94%” towards “”80%-90%”
+“75-84” towards “70%-90%”
+“Words no match” to “0%-60%”
+“Words repeat” to “repetition”
+
+
+Convert the client report to a report readable to your own system. 
+
+
+Gentle reminder: your report is written in .csv format. And while a csv can be open with Microsoft Excel or Google Sheets, you need to open it in a text editor (like sublime text or notepad++) to get its details. 
+
+
+
+
+
+
+Optional Coding Challenge.
+
+
+Data structure walkthrough: Binary Tree.
+
+
+https://www.geeksforgeeks.org/binary-tree-data-structure/
+
+
+Challenge:
+https://leetcode.com/problems/binary-tree-preorder-traversal/
+
+
+
+
+Tips:
+At this point you should have realized what the Optional Coding Challenge part is for. The idea is simple: familiarize yourself with one type of data structure with each exercise. The first time it was Array, second LinkedList, and this time Binary Tree.
