@@ -77,14 +77,8 @@ Your company is using a home-brew TMS to manage client and project data. Every t
 
 Below you will find a sample report from your system and your client’s system. Imagine the client report has more than 500 lines (which made it impossible to do a “manual” conversion). Try to write a script to convert the client’s report. 
 
-
 Sample of your client’s report:2023-11-07_sampleProject_Metrics.xlsx
 Sample of your own report: mySampleReport.csv
-
-
-
-
-
 
 Here are the rules for the conversion:
 
