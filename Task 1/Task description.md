@@ -1,4 +1,5 @@
-File Handling Task:
+File Handling Task: Generate file path
+
 For one thing, currently there is a project with 200+ files saved in a nested folder structure. The project manager would like to know if there is a way to generate a file list that she can show to the client. 
 
 Task Description:

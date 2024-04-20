@@ -1,4 +1,4 @@
-Scenario-based task 1
+Scenario-based task 1: Parse XML
 
 A new client is sending us a XML for translation into 11 languages. Although your company has translated several types of XML in the past, this one is a little bit tricky. For one thing, the client is asking only for a “partial” translation. Only items whose “name” property is an even number value should be translated. For example, the string with “name=’num6’” needs to be translated, while the string with “name=’num1’” does not.
 

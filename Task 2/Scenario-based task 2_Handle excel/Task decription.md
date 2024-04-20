@@ -1,4 +1,4 @@
-Scenario Based Task 2:
+Scenario Based Task 2: Handle excel
 
 Your company received a request to translate a multilingual spreadsheet with medical device information. At first glance, the spreadsheet seemed to be easy to handle: most strings appeared to be repeating themselves, differing only in number digits that represent measurements. 
 

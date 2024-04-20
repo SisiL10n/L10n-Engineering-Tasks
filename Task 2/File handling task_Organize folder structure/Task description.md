@@ -1,4 +1,4 @@
-File Handling Task:
+File Handling Task: Organize folder structure & handle filenames in batch
 
 Here is the thing. The project manager has been working with a translation vendor agency on a project into 8 languages. Your project manager made it clear that the end delivery format is .docx and should follow a specific folder structure: all documents should retain their original name, but also be placed in a folder named by the language-country code. For example, a file named "fileName.docx" in English should retain its original name, but be placed in a folder named "en-US".
 
