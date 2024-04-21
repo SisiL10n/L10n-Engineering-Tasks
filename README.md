@@ -9,6 +9,6 @@ Scenario-based Tasks:
 2. Handle excel with placeholders
 3. Multilingual XML parsing
 
-They are developed by my amazing mentor Shelton Shen.  
+They are developed by my amazing mentor Shelton Chen.  
 
 I implemented solutions to these problems using Python.
