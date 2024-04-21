@@ -1,6 +1,6 @@
 This repository is a collection of localization engineering tasks inspired by real world l10n scenarios.  
 File Handling Tasks:
-1. Print file path
+1. Print file path in a nested folder
 2. Organize folder structure & handle filenames in batch
 3. TMS report conversion
 
